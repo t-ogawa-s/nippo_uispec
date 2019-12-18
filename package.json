@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "generate": "ui-spec-md generate -m md -d dist/public -t theme/standard",
+    "edit-server": "ui-spec-md edit-server -m md -d dist/edit"
+  },
+  "name": "nippo_uispec",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ui-spec-md": "^0.3.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-ogawa-s/nippo_uispec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-ogawa-s/nippo_uispec/issues"
+  },
+  "homepage": "https://github.com/t-ogawa-s/nippo_uispec#readme"
+}

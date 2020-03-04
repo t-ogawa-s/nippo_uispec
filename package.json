@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "generate": "ui-spec-md generate -m src -d dist/public -t theme/standard",
-    "edit-server": "ui-spec-md edit-server -m src -d dist/edit"
+    "build": "ui-spec-md generate -m src -d dist/public -t theme/standard",
+    "start": "ui-spec-md edit-server -m src -d dist/edit"
   },
   "name": "nippo_uispec",
   "description": "",
